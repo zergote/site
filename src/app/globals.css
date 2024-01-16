@@ -2,9 +2,8 @@
 @tailwind components;
 
 body {
-  @apply bg-white;
-  @apply text-black;
-  @apply flex flex-col min-h-screen;
+  @apply bg-gray-950;
+  @apply text-white;
 }
 
 @tailwind utilities;
