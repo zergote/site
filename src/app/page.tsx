@@ -1,4 +1,5 @@
 import PersonOverview from "@/components/PersonOverview/PersonOverview";
+import ProjectsGallery from "@/components/ProjectsGallery/ProjectsGallery";
 import SubscripctionBox from "@/components/SubscriptionBox/SubscriptionBox";
 
 export default function Home() {
@@ -8,6 +9,7 @@ export default function Home() {
       <div className="containner ml-4 mr-4 py-3 max-w-screen-sm md:max-w-screen-md lg:max-w-screen-md sm:mx-auto">
         <PersonOverview />
         <SubscripctionBox />
+        <ProjectsGallery />
       </div>
     </div>
   )
