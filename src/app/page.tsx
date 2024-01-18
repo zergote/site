@@ -1,3 +1,4 @@
+import ArticlesListView from "@/components/ArticlesListView/ArticlesListView";
 import PersonOverview from "@/components/PersonOverview/PersonOverview";
 import ProjectsGallery from "@/components/ProjectsGallery/ProjectsGallery";
 import SubscripctionBox from "@/components/SubscriptionBox/SubscriptionBox";
@@ -10,6 +11,7 @@ export default function Home() {
         <PersonOverview />
         <SubscripctionBox />
         <ProjectsGallery />
+        <ArticlesListView />
       </div>
     </div>
   )
