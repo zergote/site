@@ -2,6 +2,7 @@ import ArticlesListView from "@/components/ArticlesListView/ArticlesListView";
 import BottomNav from "@/components/BottomNav/BottomNav";
 import PersonOverview from "@/components/PersonOverview/PersonOverview";
 import ProjectsGallery from "@/components/ProjectsGallery/ProjectsGallery";
+import StackSkills from "@/components/StackSkills/StackSkills";
 import SubscripctionBox from "@/components/SubscriptionBox/SubscriptionBox";
 
 export default function Home() {
@@ -10,7 +11,10 @@ export default function Home() {
     <div className="min-w-96">
       <div className="containner ml-4 mr-4 pt-5 max-w-screen-sm md:max-w-screen-md lg:max-w-screen-md sm:mx-auto">
         <PersonOverview />
-        <SubscripctionBox />
+        <div className="flex flex-col sm:flex-row">
+          <SubscripctionBox />
+          <StackSkills />
+        </div>
         <ProjectsGallery />
         <ArticlesListView />
         <ArticlesListView />
