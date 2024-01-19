@@ -2,25 +2,31 @@
 import { useRouter } from "next/navigation";
 
 type Article = {
-  Fecha: String,
-  Título: String,
-  Vistas: number,
-  Enlace: String
+  fecha: String,
+  título: String,
+  vistas: number,
+  enlace: String
 
 }
 
 
 const articles: Article[] = [{
-  Fecha: new Intl.DateTimeFormat('en-US').format(new Date("10/24")).toString(),
-  Título: "Iniciando articulos",
-  Vistas: 652,
-  Enlace: "/Link1"
+  fecha: new Intl.DateTimeFormat('en-US', {
+    month: "2-digit",
+    year: "2-digit"
+  }).format(new Date("2024-10")).toString(),
+  título: "Iniciando articulos Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusamus, fugit? ",
+  vistas: 652,
+  enlace: "/Link1"
 },
 {
-  Fecha: new Intl.DateTimeFormat('en-US').format(new Date("10/10/24")).toString(),
-  Título: "Iniciando articulos",
-  Vistas: 100,
-  Enlace: "/Link2"
+  fecha: new Intl.DateTimeFormat('en-US', {
+    month: "2-digit",
+    year: "2-digit"
+  }).format(new Date("2024-10")).toString(),
+  título: "Iniciando articulos",
+  vistas: 100,
+  enlace: "/Link2"
 }
 ]
 
@@ -38,11 +44,13 @@ export default function ArticlesListView() {
 
   return (
     <div className="relative overflow-x-auto">
-      <table className="w-full text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400 bg-slate-50">
-        <thead className="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
+      <table className="w-full text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400 bg-slate-50 font-mono">
+        <thead className="text-xs uppercase bg-gray-50 dark:bg-gray-700 text-gray-500 dark:text-gray-600">
           <tr>
             {headings.map((heading, index) => {
-              return <th key={index} scope="col" className="px-6 py-3">{heading}</th>
+              const isTitle = heading === "título"
+              const growClassProperty = isTitle ? "px-6 py-3 grow" : "px-6 py-3 grow-0"
+              return <th key={index} scope="col" className={growClassProperty}>{heading}</th>
             })}
           </tr>
         </thead>
@@ -51,12 +59,14 @@ export default function ArticlesListView() {
             return (
               <tr key={index}
                 onClick={() => {
-                  router.push(row["Enlace"])
+                  router.push(row["enlace"])
                 }}
                 className="cursor-pointer hover:bg-slate-200"
               >
                 {headings.map((index: any) => {
-                  return <td key={row[index]} className="px-6 py-4">
+                  const isTitle = index === "título"
+                  const growClassProperty = isTitle ? "px-6 py-3 grow text-black" : "px-6 py-3 grow-0"
+                  return <td key={row[index]} className={growClassProperty}>
                     {row[index]}
                   </td>
                 })}
