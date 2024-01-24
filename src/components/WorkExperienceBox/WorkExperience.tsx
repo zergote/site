@@ -1,13 +1,13 @@
 export default function WorkExperience() {
   return (
-    <div className="containner ml-4 mr-4 pt-5 max-w-screen-sm md:max-w-screen-md sm:ml-6 md:ml-24 lg:ml-32 lg:mr-32 xl:ml-96 xl:mr-96 lg:max-w-screen-md sm:mx-auto">
+    <div className="containner ml-4 mr-4 pt-5 max-w-screen-sm md:max-w-screen-md sm:ml-6 sm:mr-6 md:ml-20 md:mr-20 lg:ml-32 lg:mr-32 xl:ml-72 xl:mr-72 2xl:ml-96 2xl:mr-96 lg:max-w-screen-md sm:mx-auto">
       <div>
         <h2 className="font-ainoHeadline text-2xl text-[#0000f0] mb-4">Trabajo</h2>
       </div>
       <div className="flex text-start">
 
         <dl className="flex flex-col justify-between mb-5 text-[#323334]">
-          <dt className="text-base font-aino"><span className="underline decoration-blue-800 hover:text-blue-800" id="novedadessulmira">NOVEDADES SULMIRA</span> Feb, 2020 | Nov, 2023</dt>
+          <dt className="text-base font-aino"><span className="underline text-[#323334] decoration-[#323334] hover:decoration-[#0000f0] hover:text-[#0000f0]" id="novedadessulmira">NOVEDADES SULMIRA</span> Feb, 2020 | Nov, 2023</dt>
           <dt className="text-lg font-ainoBold">Ingeniero de Computación</dt>
           <dt className="text-base font-ainoHeadline mb-1">#javascript #react #nodejs #postgresql</dt>
           <dd className="text-base font-aino">
@@ -24,7 +24,7 @@ export default function WorkExperience() {
         <dl className="flex flex-col justify-between mb-5 text-[#323334]">
           <dt className="text-base font-aino">
             <span id="digitel">
-              <a href="https://www.digitel.com.ve/" className="underline decoration-blue-800 hover:text-blue-800">CORPORACION DIGITEL</a> Abr, 2018 | Dic, 2019
+              <a href="https://www.digitel.com.ve/" className="underline text-[#323334] decoration-[#323334] hover:decoration-[#0000f0] hover:text-[#0000f0]">CORPORACION DIGITEL</a> Abr, 2018 | Dic, 2019
             </span>
           </dt>
           <dt className="text-lg font-ainoBold">Ingeniero de Computación</dt>
@@ -48,7 +48,7 @@ export default function WorkExperience() {
         <dl className="flex flex-col justify-between mb-5 text-[#323334]">
           <dt className="text-base font-aino">
             <span id="senifa">
-              <a href="https://twitter.com/PrensaSenifa" className="underline decoration-blue-800 hover:text-blue-800">SENIFA</a> 2021 Mar, 2013| Oct, 2016
+              <a href="https://twitter.com/PrensaSenifa" className="underline text-[#323334] decoration-[#323334] hover:decoration-[#0000f0] hover:text-[#0000f0]">SENIFA</a> 2021 Mar, 2013| Oct, 2016
             </span>
           </dt>
           <dt className="text-lg font-ainoBold">Especialista en Infraestructura IT</dt>

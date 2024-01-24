@@ -3,7 +3,7 @@ export default function Footer() {
   return (
     <footer className="text-[#0000f0] bg-[#f0f1f2] font-aino min-h-20 pb-5">
       <div className="container mx-auto max-w-screen-lg justify-between">
-        <div className="flex justify-between mt-6 ml-4 mr-4 sm:ml-15 sm:mr-15 md:ml-18 md:mr-18 lg:ml-32 lg:mr-32 xl:ml-32 xl:mr-32 2xl:ml-32 2xl:mr-32">
+        <div className="flex justify-between mt-6 ml-4 mr-4 sm:ml-15 sm:mr-15 md:ml-20 md:mr-20 lg:ml-32 lg:mr-32 xl:ml-40 xl:mr-36 2xl:ml-36 2xl:mr-40">
           <div id="Links-left" className="flex flex-col ">
             <span>
               <a href="#resume" onClick={() => { setTimeout(window.print, 200) }}
