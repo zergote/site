@@ -8,7 +8,7 @@ export default function WorkExperience() {
         <div className="flex text-start">
 
           <dl className="flex flex-col justify-between mb-5 text-[#323334]">
-            <dt className="text-md font-aino"><span className="underline decoration-blue-800 hover:text-blue-800">NOVEDADES SULMIRA</span> Feb, 2020 | Nov, 2023</dt>
+            <dt className="text-md font-aino"><span className="underline decoration-blue-800 hover:text-blue-800" id="novedadessulmira">NOVEDADES SULMIRA</span> Feb, 2020 | Nov, 2023</dt>
             <dt className="text-lg font-ainoBold">Ingeniero de Computación</dt>
             <dt className="text-md font-ainoHeadline mb-1">#javascript #react #nodejs #postgresql</dt>
             <dd className="text-md font-aino">
@@ -23,7 +23,11 @@ export default function WorkExperience() {
         <div className="flex text-start">
 
           <dl className="flex flex-col justify-between mb-5 text-[#323334]">
-            <dt className="text-md font-aino"><a href="https://www.digitel.com.ve/" className="underline decoration-blue-800 hover:text-blue-800">CORPORACION DIGITEL</a> Abr, 2018 | Dic, 2019</dt>
+            <dt className="text-md font-aino">
+              <span id="digitel">
+                <a href="https://www.digitel.com.ve/" className="underline decoration-blue-800 hover:text-blue-800">CORPORACION DIGITEL</a> Abr, 2018 | Dic, 2019
+              </span>
+            </dt>
             <dt className="text-lg font-ainoBold">Ingeniero de Computación</dt>
             <dt className="text-md font-ainoHeadline mb-1">#javascript #react #redux #nodejs #expressjs #postgresql #nginx #Highcharts #websockets</dt>
             <dd className="text-md font-aino">
@@ -43,7 +47,11 @@ export default function WorkExperience() {
         <div className="flex text-start">
 
           <dl className="flex flex-col justify-between mb-5 text-[#323334]">
-            <dt className="text-md font-aino"><a href="https://twitter.com/PrensaSenifa" className="underline decoration-blue-800 hover:text-blue-800">SENIFA</a> 2021 Mar, 2013| Oct, 2016</dt>
+            <dt className="text-md font-aino">
+              <span id="senifa">
+                <a href="https://twitter.com/PrensaSenifa" className="underline decoration-blue-800 hover:text-blue-800">SENIFA</a> 2021 Mar, 2013| Oct, 2016
+              </span>
+            </dt>
             <dt className="text-lg font-ainoBold">Especialista en Infraestructura IT</dt>
             <dt className="text-md font-ainoHeadline mb-1">#redes #sysadmin #seguridad</dt>
             <dd className="text-md font-aino">
