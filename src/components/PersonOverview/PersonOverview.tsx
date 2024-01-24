@@ -12,8 +12,8 @@ export default function PersonOverview() {
   }
 
   return (
-    <div className="bg-[#f0f1f2] text-[#323334] ">
-      <div className="flex flex-col rounded-lg p-3 font-aino">
+    <div className="text-[#323334] containner ml-4 mr-4 pt-5 max-w-screen-sm md:max-w-screen-md sm:ml-6 md:ml-24 lg:ml-32 lg:mr-32 xl:ml-96 xl:mr-96 lg:max-w-screen-md sm:mx-auto">
+      <div className="flex flex-col rounded-lg font-aino">
         <p>Mi nombre es Christian, crecí en Irapa, una hermosa ciudad del oriente de Venezuela. Trabajo profesionalmente en el desarrollo de software en diferentes roles: he sido fronted, backend así como devops.</p>
         <p>Cuando la vida y el trabajo lo permitan, disfrutaré publicando y compartiendo todo lo que descubro o invento en este sitio web.</p>
         <div>
