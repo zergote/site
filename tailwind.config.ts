@@ -14,6 +14,13 @@ const config: Config = {
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
     },
+    fontFamily: {
+      aino: ["aino", "sans-serif"],
+      ainoBold: ["aino-bold", "sans-serif"],
+      ainoBoldItalic: ["aino-bold-italic", "sans-serif"],
+      ainoHeadline: ["aino-headline", "sans-serif"],
+      ainoItalic: ["aino-italic", "sans-serif"]
+    },
   },
   plugins: [],
 }

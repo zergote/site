@@ -1,10 +1,49 @@
 @tailwind base;
 @tailwind components;
 
+html {
+  @apply scroll-smooth;
+}
+
 body {
-  @apply bg-gray-950;
+  @apply bg-white;
   @apply text-white;
   @apply flex flex-col min-h-screen;
 }
+
+@media print {
+
+  /* its an example */
+
+  .noPrint {
+    @apply hidden;
+  }
+}
+
+@font-face {
+  font-family: "aino";
+  src: url("../../public/fonts/aino/Aino-Regular.woff2");
+}
+
+@font-face {
+  font-family: "aino-bold";
+  src: url("../../public/fonts/aino/Aino-Bold.woff2");
+}
+
+@font-face {
+  font-family: "aino-bold-italic";
+  src: url("../../public/fonts/aino/Aino-BoldItalic.woff2");
+}
+
+@font-face {
+  font-family: "aino-headline";
+  src: url("../../public/fonts/aino/Aino-Headline.woff2");
+}
+
+@font-face {
+  font-family: "aino-italic";
+  src: url("../../public/fonts/aino/Aino-Italic.woff2");
+}
+
 
 @tailwind utilities;
