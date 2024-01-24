@@ -35,7 +35,7 @@ export default function WorkExperienceOverview() {
           <dt className="text-lg font-ainoBold">Especialista en Infraestructura IT</dt>
           <dt className="text-base font-ainoHeadline mb-1">#redes #sysadmin #seguridad</dt>
           <dd className="text-base font-aino">
-            <p className="mb-3">Mi responsabilidad clave fue el mantenimiento de servidores, la configuración de redes y la gestión de dispositivos remotos.  <a href="/about#senifa" className="underline">Más detalles.</a></p>
+            <p className="">Mi responsabilidad clave fue el mantenimiento de servidores, la configuración de redes y la gestión de dispositivos remotos.  <a href="/about#senifa" className="underline">Más detalles.</a></p>
           </dd>
         </dl>
       </div>

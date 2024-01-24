@@ -10,7 +10,7 @@ import WorkExperienceOverview from "@/components/WorkExperienceOverview/WorkExpe
 export default function Home() {
   //max-w-screen-2xl 
   return (
-    <div className="min-w-96">
+    <div className="pt-4 min-w-96">
       <PersonOverview />
       <WorkExperienceOverview />
       <ProjectsGallery />

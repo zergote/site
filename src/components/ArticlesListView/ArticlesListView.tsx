@@ -50,7 +50,7 @@ export default function ArticlesListView() {
           <tr>
             {headings.map((heading, index) => {
               const isTitle = heading === "título"
-              const growClassProperty = isTitle ? "px-6 py-3 grow" : "px-6 py-3 grow-0"
+              const growClassProperty = isTitle ? "px-6 py-3 grow" : "py-3 grow-0"
               return <th key={index} scope="col" className={growClassProperty}>{heading}</th>
             })}
           </tr>
@@ -66,7 +66,7 @@ export default function ArticlesListView() {
               >
                 {headings.map((index: any) => {
                   const isTitle = index === "título"
-                  const growClassProperty = isTitle ? "px-6 py-3 grow text-[#323334]" : "px-6 py-3 grow-0"
+                  const growClassProperty = isTitle ? "px-6 py-3 grow text-[#323334]" : "py-3 grow-0"
                   return <td key={row[index]} className={growClassProperty}>
                     {row[index]}
                   </td>
