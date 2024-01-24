@@ -43,9 +43,10 @@ export default function ArticlesListView() {
   const router = useRouter()
 
   return (
-    <div className="relative overflow-x-auto">
-      <table className="w-full text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400 bg-slate-50 font-mono">
-        <thead className="text-xs uppercase bg-gray-50 dark:bg-gray-700 text-gray-500 dark:text-gray-600">
+    <div className="relative overflow-x-auto containner ml-4 mr-4 pt-5 max-w-screen-sm md:max-w-screen-md sm:ml-6 md:ml-24 lg:ml-32 lg:mr-32 xl:ml-96 xl:mr-96 lg:max-w-screen-md sm:mx-auto">
+      <h1 className="text-[#0000f0] font-ainoHeadline text-2xl">Ultimos Artículos</h1>
+      <table className="text-[#575a5d] text-sm text-left rtl:text-right font-aino">
+        <thead className="text-xs uppercase font-ainoHeadline">
           <tr>
             {headings.map((heading, index) => {
               const isTitle = heading === "título"
@@ -65,7 +66,7 @@ export default function ArticlesListView() {
               >
                 {headings.map((index: any) => {
                   const isTitle = index === "título"
-                  const growClassProperty = isTitle ? "px-6 py-3 grow text-black" : "px-6 py-3 grow-0"
+                  const growClassProperty = isTitle ? "px-6 py-3 grow text-[#323334]" : "px-6 py-3 grow-0"
                   return <td key={row[index]} className={growClassProperty}>
                     {row[index]}
                   </td>

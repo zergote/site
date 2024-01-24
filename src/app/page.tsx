@@ -14,13 +14,12 @@ export default function Home() {
       <PersonOverview />
       <WorkExperienceOverview />
       <ProjectsGallery />
+      <ArticlesListView />
       <div className="containner ml-4 mr-4 pt-5 max-w-screen-sm md:max-w-screen-md lg:max-w-screen-md sm:mx-auto">
         <div className="flex flex-col sm:flex-row">
           <SubscripctionBox />
           <StackSkills />
         </div>
-        <ArticlesListView />
-        <ArticlesListView />
         <BottomNav />
       </div>
     </div>

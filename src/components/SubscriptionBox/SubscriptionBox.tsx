@@ -2,15 +2,16 @@
 export default function SubscripctionBox() {
 
   return (
-    <div className="containner bg-red-600 text-black md:max-w-96">
+    <div className="containner bg-[#f0f1f2] text-[#323334] max-w-96 md:max-w-96 font-aino">
       <div className="flex items-center text-center flex-col p-3">
-        <h3>¡Suscríbete a la newsletter!</h3>
-        <p>Recibirás artículos de calidad sobre frontend y todas las novedades en las que vaya trabajando.¡Nada de spam 🙅‍♂️!</p>
-        <form action="sumit" className="pt-2">
-          <input type="email" name="email" placeholder=" Tu correo electrónico *" id="" className="text-black rounded-lg p-1 placeholder:translate-x-4" />
-          <button className="bg-slate-900 p-1 pl-3 pr-3 rounded-lg ml-1 text-white">Subscriberse</button>
+        <h1 className="text-[#0000f0] font-ainoBold text-lg">Subscribete</h1>
+        <p>Recibe un único correo electrónico cada semana, donde discutiremos el desarrollo de software y tecnologías relacionadas.</p>
+        <form action="submit" className="flex">
+          <input type="email" name="email" placeholder="Escribe aquí tu email *" id="" className="text-[#323334] rounded-l-full p-1 pl-5 placeholder:translate-x-0 outline-none" />
+          <button className="bg-[#323334] p-1 pl-3 pr-3 rounded-r-full text-white">Me apunto</button>
+
         </form>
-      </div>
-    </div>
+      </div >
+    </div >
   )
 }
