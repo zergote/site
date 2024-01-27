@@ -24,7 +24,7 @@ export default function WorkExperience() {
         <dl className="flex flex-col justify-between mb-5 text-[#323334]">
           <dt className="text-base font-aino">
             <span id="digitel">
-              <a href="https://www.digitel.com.ve/" className="underline text-[#323334] decoration-[#323334] hover:decoration-[#0000f0] hover:text-[#0000f0]">CORPORACION DIGITEL</a> Abr, 2018 | Dic, 2019
+              <a href="https://www.digitel.com.ve/" className="underline text-[#323334] decoration-[#323334] hover:decoration-[#0000f0] hover:text-[#0000f0]" target="_blank" rel="noopener noreferrer">CORPORACION DIGITEL</a> Abr, 2018 | Dic, 2019
             </span>
           </dt>
           <dt className="text-lg font-ainoBold">Ingeniero de Computación</dt>
@@ -48,7 +48,7 @@ export default function WorkExperience() {
         <dl className="flex flex-col justify-between mb-5 text-[#323334]">
           <dt className="text-base font-aino">
             <span id="senifa">
-              <a href="https://twitter.com/PrensaSenifa" className="underline text-[#323334] decoration-[#323334] hover:decoration-[#0000f0] hover:text-[#0000f0]">SENIFA</a> 2021 Mar, 2013| Oct, 2016
+              <a href="https://twitter.com/PrensaSenifa" className="underline text-[#323334] decoration-[#323334] hover:decoration-[#0000f0] hover:text-[#0000f0]" target="_blank" rel="noopener noreferrer">SENIFA</a> 2021 Mar, 2013| Oct, 2016
             </span>
           </dt>
           <dt className="text-lg font-ainoBold">Especialista en Infraestructura IT</dt>

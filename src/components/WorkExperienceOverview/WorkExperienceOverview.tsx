@@ -19,7 +19,7 @@ export default function WorkExperienceOverview() {
       <div className="flex text-start">
 
         <dl className="flex flex-col justify-between mb-5 text-[#323334]">
-          <dt className="text-base font-aino"><a href="https://www.digitel.com.ve/" className="underline text-[#323334] decoration-[#323334] hover:decoration-[#0000f0] hover:text-[#0000f0]">CORPORACION DIGITEL</a> Abr, 2018 | Dic, 2019</dt>
+          <dt className="text-base font-aino"><a href="https://www.digitel.com.ve/" className="underline text-[#323334] decoration-[#323334] hover:decoration-[#0000f0] hover:text-[#0000f0]" target="_blank" rel="noopener noreferrer">CORPORACION DIGITEL</a> Abr, 2018 | Dic, 2019</dt>
           <dt className="text-lg font-ainoBold">Ingeniero de Computación</dt>
           <dt className="text-base font-ainoHeadline mb-1">#javascript #react #redux #nodejs #expressjs #postgresql #nginx #highcharts #websockets</dt>
           <dd className="text-base font-aino">
@@ -31,7 +31,7 @@ export default function WorkExperienceOverview() {
       <div className="flex text-start">
 
         <dl className="flex flex-col justify-between mb-5 text-[#323334]">
-          <dt className="text-base font-aino"><a href="https://twitter.com/PrensaSenifa" className="underline text-[#323334] decoration-[#323334] hover:decoration-[#0000f0] hover:text-[#0000f0]">SENIFA</a> 2021 Mar, 2013| Oct, 2016</dt>
+          <dt className="text-base font-aino"><a href="https://twitter.com/PrensaSenifa" className="underline text-[#323334] decoration-[#323334] hover:decoration-[#0000f0] hover:text-[#0000f0]" target="_blank" rel="noopener noreferrer">SENIFA</a> 2021 Mar, 2013| Oct, 2016</dt>
           <dt className="text-lg font-ainoBold">Especialista en Infraestructura IT</dt>
           <dt className="text-base font-ainoHeadline mb-1">#redes #sysadmin #seguridad</dt>
           <dd className="text-base font-aino">

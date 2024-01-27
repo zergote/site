@@ -13,14 +13,14 @@ export default function ProjectsGallery() {
           <dl className="flex flex-col justify-between mb-5 text-[#323334]">
             <dt className="text-base font-aino"><a href="https://github.com/zergote/DUM-Dashboard-de-habitacion-Domotica" className="underline text-[#323334] decoration-[#323334] hover:decoration-[#0000f0] hover:text-[#0000f0]" target="_blank" rel="noopener noreferrer">GITHUB</a> Jun, 2018</dt>
             <dt className="text-lg font-ainoBold">Prototipo Casa Domotica</dt>
-            <dt className="text-sm font-ainoHeadline">#c #java #jbeautyeye #jssc #javamail #jfreechart #sqlite #tenssy</dt>
+            <dt className="text-base font-ainoHeadline mb-1">#c #java #jbeautyeye #jssc #javamail #jfreechart #sqlite #tenssy</dt>
             <dd className="text-sm font-aino">Desarrollado utilizando un microcontrolador Teensy 3.2 como núcleo. El diseño integró una variedad de sensores y actuadores, que incluían medidores de temperatura, humo, humedad, movimiento, gas, fuego, ventiladores, motores e interruptores domóticos, y un panel de control que aseguraba una automatización fluida e intuitiva.</dd>
           </dl>
 
           <dl className="flex flex-col justify-between mb-5 text-[#323334]">
             <dt className="text-base font-aino"><a href="https://github.com/zergote/Capture-The-Flag-With-Impact.js" className="underline text-[#323334] decoration-[#323334] hover:decoration-[#0000f0] hover:text-[#0000f0]" target="_blank" rel="noopener noreferrer">GITHUB</a> Feb, 2017</dt>
             <dt className="text-lg font-ainoBold">Juego Captura la Bandera</dt>
-            <dt className="text-sm font-ainoHeadline">#javascript #impactjs #algoritmos #ai</dt>
+            <dt className="text-base font-ainoHeadline mb-1">#javascript #impactjs #algoritmos #ai</dt>
             <dd className="text-sm font-aino">En este proyecto se implementó con tecnologías como Impact.js y JavaScript para desarrollar la estructura y dinámica del juego. Uno de los principales objetivos del proyecto fue proporcionar una plataforma de prueba para algoritmos de inteligencia artificial (IA). En este sentido, una variedad de algoritmos, incluyendo el algoritmo A*, fueron exitosamente implementados y evaluados.</dd>
           </dl>
 
@@ -29,3 +29,4 @@ export default function ProjectsGallery() {
     </div>
   )
 }
+

@@ -1,8 +1,7 @@
-
+"use client"
 import Image from "next/image"
 import ChristianY from "../../../public/christian_yanez.jpg"
 import WorkExperience from "@/components/WorkExperienceBox/WorkExperience"
-
 export default function About() {
   return (
     <div className="min-w-96">
@@ -31,6 +30,8 @@ export default function About() {
       </div>
       <div>
         <WorkExperience />
+      </div>
+      <div className="prose">
       </div>
     </div >
   )
