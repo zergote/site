@@ -5,7 +5,7 @@ export default function Footer() {
   const pathName = usePathname()
 
   return (
-    <footer className="text-[#0000f0] bg-[#f0f1f2] font-aino min-h-20 pb-5 print:hidden">
+    <footer className="text-[#0000f0] bg-[#f0f1f2] font-aino min-h-20 pb-5 print:hidden mt-auto">
       <div className="container mx-auto max-w-screen-lg justify-between">
         <div className="flex justify-between mt-6 ml-4 mr-4 sm:ml-15 sm:mr-15 md:ml-20 md:mr-20 lg:ml-32 lg:mr-32 xl:ml-40 xl:mr-36 2xl:ml-36 2xl:mr-40">
           <div id="Links-left" className="flex flex-col ">

@@ -23,7 +23,7 @@ const posts = PostsList.posts.sort((postA: any, postB: any) => {
 
 export default function Home() {
   return (
-    <div className="pt-4">
+    <div className="min-h-screen flex flex-col">
       <PersonOverview />
       <WorkExperienceOverview />
       <ProjectsGallery />
