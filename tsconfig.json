@@ -33,7 +33,8 @@
     "**/*.ts",
     "**/*.tsx",
     ".next/types/**/*.ts",
-    "src/app/helpers/getPosts.js"
+    "src/app/helpers/getPosts.js",
+    "src/app/blog/1page.tsx.backup"
   ],
   "exclude": [
     "node_modules"

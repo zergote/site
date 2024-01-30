@@ -12,14 +12,14 @@ export default function PersonOverview() {
   }
 
   return (
-    <div className="text-[#323334] containner ml-4 mr-4 pt-5 max-w-screen-sm md:max-w-screen-md sm:ml-6 md:ml-20 md:mr-20 lg:ml-32 lg:mr-32 xl:ml-72 xl:mr-72 2xl:ml-96 2xl:mr-96 lg:max-w-screen-md sm:mx-auto">
+    <div className="text-[#323334] containner ml-4 mr-4 pt-5 max-w-screen-sm md:max-w-screen-md sm:ml-6 md:ml-20 md:mr-20 lg:ml-32 lg:mr-32 xl:ml-72 xl:mr-72 2xl:ml-96 2xl:mr-96 lg:max-w-screen-md sm:mx-auto print:text-xs print:pt-0">
       <div className="flex flex-col rounded-lg font-aino">
         <p>Mi nombre es Christian, crecí en Irapa, una hermosa ciudad del oriente de Venezuela. Trabajo profesionalmente en el desarrollo de software en diferentes roles: he sido fronted, backend así como devops.</p>
-        <p>Cuando la vida y el trabajo lo permitan, disfrutaré publicando y compartiendo todo lo que descubro o invento en este sitio web.</p>
+        <p className="print:hidden">Cuando la vida y el trabajo lo permitan, disfrutaré publicando y compartiendo todo lo que descubro o invento en este sitio web.</p>
         <div>
           <span>
-            Si estás interesado en conocerme, no lo dudes y ponte en contacto conmigo en <a href="mailto:christian@yanezc.com" className="bg-[#f0f1f2] border border-blue-700 hover:border-indigo-700 p-1 font-aino underline">christian@yanezc.com</a> {visible && <span className="text-white bg-[#0000f0] border border-solid font-ainoHeadline p-1"> email copiado!</span>} {!visible && <button onClick={handleCopyMail}>
-              <svg className="pt-1 w-4 h-4 text-gray-800 dark:text-white" aria-hidden="true" fill="none" viewBox="0 0 18 20">
+            Si estás interesado en conocerme, no lo dudes y ponte en contacto conmigo en <a href="mailto:christian@yanezc.com" className="bg-[#f0f1f2] border border-blue-700 hover:border-indigo-700 p-1 font-aino underline print:border-none print:bg-white">christian@yanezc.com</a> {visible && <span className="text-white bg-[#0000f0] border border-solid font-ainoHeadline p-1"> email copiado!</span>} {!visible && <button onClick={handleCopyMail}>
+              <svg className="pt-1 w-4 h-4 text-gray-800 dark:text-white print:hidden" aria-hidden="true" fill="none" viewBox="0 0 18 20">
                 <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="m7.708 2.292.706-.706A2 2 0 0 1 9.828 1h6.239A.97.97 0 0 1 17 2v12a.97.97 0 0 1-.933 1H15M6 5v4a1 1 0 0 1-1 1H1m11-4v12a.97.97 0 0 1-.933 1H1.933A.97.97 0 0 1 1 18V9.828a2 2 0 0 1 .586-1.414l2.828-2.828A2 2 0 0 1 5.828 5h5.239A.97.97 0 0 1 12 6Z" />
               </svg>
             </button>}

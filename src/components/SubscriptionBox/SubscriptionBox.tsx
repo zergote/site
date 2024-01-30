@@ -2,7 +2,7 @@
 export default function SubscripctionBox() {
 
   return (
-    <div className="containner bg-[#f0f1f2] text-[#323334] font-aino">
+    <div className="containner bg-[#f0f1f2] text-[#323334] font-aino print:hidden">
       <div className="flex items-center text-center flex-col p-3">
         <h2 className="text-[#0000f0] font-ainoBold text-lg">Subscribete</h2>
         <p>Recibe un correo electrónico cada semana, donde discutiremos sobre desarrollo de software y tecnologías relacionadas.</p>

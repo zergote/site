@@ -1,6 +1,6 @@
 "use client"
 import Image from "next/image"
-import ChristianY from "../../../public/christian_yanez.jpg"
+import ChristianY from "@/../public/christian_yanez.jpg"
 import WorkExperience from "@/components/WorkExperienceBox/WorkExperience"
 export default function About() {
   return (
@@ -32,6 +32,7 @@ export default function About() {
         <WorkExperience />
       </div>
       <div className="prose">
+
       </div>
     </div >
   )

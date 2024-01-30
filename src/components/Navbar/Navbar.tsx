@@ -4,12 +4,19 @@ import TwitterIcon from "../../../public/twitter.svg"
 import Sun from "../../../public/sun.svg"
 export default function Navbar() {
   return (
-    <nav className="bg-[#0000f0] shadow-md min-w-96">
-      <div className="mx-auto flex justify-between items-center py-3 max-w-screen-lg">
-        <span className="hover:bg-blue-700 p-2 rounded-sm transition-[background-color] ml-4 sm:ml-4 md:ml-20 lg:ml-28 xl:ml-30">
-          <a href="/" className=" text-lg sm:text-xl md:text-2xl lg:text-2xl xl:text-3xl 2xl:text-3xl text-slate-50 text-md whitespace-nowrap font-aino">christian yánez</a>
+    <nav className="bg-[#0000f0] shadow-md min-w-96 print:shadow-none">
+      <div className="mx-auto flex justify-between items-center py-3 max-w-screen-lg print:justify-center print:flex-col print:py-0">
+        <span className="hover:bg-blue-700 p-2 rounded-sm transition-[background-color] ml-4 sm:ml-4 md:ml-20 lg:ml-28 xl:ml-30 print:py-0">
+          <a href="/" className=" text-lg sm:text-xl md:text-2xl lg:text-2xl xl:text-3xl 2xl:text-3xl text-slate-50 text-md whitespace-nowrap font-aino print:text-black print:uppercase">christian yánez</a>
         </span>
-        <ul className="flex items-center mr-4 text-base md:text-xl lg:text-2xl xl:text-2xl 2xl:text-xl sm:mr-10 md:mr-20 lg:mr-28 xl:mr-32 ">
+        <ul className="hidden print:visible print:flex print:text-black">
+          <li className="print:mr-2">yanezc.com</li>
+          <li>|</li>
+          <li className="print:ml-2 print:mr-2">linkedin.com/in/zergote </li>
+          <li>|</li>
+          <li className="print:ml-2">github.com/zergote</li>
+        </ul>
+        <ul className="flex items-center mr-4 text-base md:text-xl lg:text-2xl xl:text-2xl 2xl:text-xl sm:mr-10 md:mr-20 lg:mr-28 xl:mr-32 print:hidden">
           <li>
             <Link href="/about" className="flex items-center text-white mr-1 hover:bg-blue-700 p-2 rounded-sm transition-[background-color]">
               <svg className="w-4 h-4 mr-1 lg:w-5 lg:h-5 text-white dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
