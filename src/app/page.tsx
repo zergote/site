@@ -1,12 +1,12 @@
+//import BottomNav from "@/components/BottomNav/BottomNav";
 import ArticlesListView from "@/components/ArticlesListView/ArticlesListView";
-import BottomNav from "@/components/BottomNav/BottomNav";
 import EducationBox from "@/components/EducationBox/EducationBox";
 import PersonOverview from "@/components/PersonOverview/PersonOverview";
+import PostsList from "@/app/posts.json"
 import ProjectsGallery from "@/components/ProjectsGallery/ProjectsGallery";
 import StackSkills from "@/components/StackSkills/StackSkills";
 import SubscripctionBox from "@/components/SubscriptionBox/SubscriptionBox";
 import WorkExperienceOverview from "@/components/WorkExperienceOverview/WorkExperienceOverview";
-import PostsList from "@/app/posts.json"
 
 const posts = PostsList.posts.sort((postA: any, postB: any) => {
   const yearA = new Date(postA.date).getFullYear()
@@ -23,7 +23,7 @@ const posts = PostsList.posts.sort((postA: any, postB: any) => {
 
 export default function Home() {
   return (
-    <div className="pt-4">
+    <div className="min-h-screen flex flex-col">
       <PersonOverview />
       <WorkExperienceOverview />
       <ProjectsGallery />
@@ -35,9 +35,9 @@ export default function Home() {
         <SubscripctionBox />
         <StackSkills />
       </div>
-
-
+      {/* Disabled mobile botton nav, wait new features
       <BottomNav />
+      */}
     </div>
   )
 }
