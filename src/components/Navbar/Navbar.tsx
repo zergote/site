@@ -7,7 +7,7 @@ export default function Navbar() {
     <nav className="bg-[#0000f0] shadow-md min-w-96 print:shadow-none">
       <div className="mx-auto flex justify-between items-center py-3 max-w-screen-lg print:justify-center print:flex-col print:py-0">
         <span className="hover:bg-blue-700 p-2 rounded-sm transition-[background-color] ml-4 sm:ml-4 md:ml-20 lg:ml-28 xl:ml-30 print:py-0">
-          <a href="/" className=" text-lg sm:text-xl md:text-2xl lg:text-2xl xl:text-3xl 2xl:text-3xl text-slate-50 text-md whitespace-nowrap font-aino print:text-black print:uppercase">christian yánez</a>
+          <a href="/" className=" text-lg sm:text-xl md:text-2xl lg:text-2xl xl:text-3xl 2xl:text-3xl text-slate-50 text-md whitespace-nowrap font-aino print:text-black print:uppercase print:font-ainoHeadline">christian yánez</a>
         </span>
         <ul className="hidden print:visible print:flex print:text-black">
           <li className="print:mr-2">yanezc.com</li>
