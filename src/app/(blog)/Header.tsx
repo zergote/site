@@ -12,7 +12,7 @@ export default function Header({ title, date }: { title: any, date: any }) {
             <span>
               <a
                 href="https://twitter.com/zergote"
-                className="hover:text-gray-800 dark:hover:text-gray-400"
+                className="hover:text-[#0000f0]"
                 target="_blank"
               >
                 @zergote

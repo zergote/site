@@ -19,11 +19,11 @@ const config: Config = {
       },
     },
     fontFamily: {
-      aino: ["aino", "sans-serif"],
-      ainoBold: ["aino-bold", "sans-serif"],
-      ainoBoldItalic: ["aino-bold-italic", "sans-serif"],
-      ainoHeadline: ["aino-headline", "sans-serif"],
-      ainoItalic: ["aino-italic", "sans-serif"]
+      "aino": ["aino", "sans-serif"],
+      "ainoBold": ["aino-bold", "sans-serif"],
+      "ainoBoldItalic": ["aino-bold-italic", "sans-serif"],
+      "ainoHeadline": ["aino-headline", "sans-serif"],
+      "ainoItalic": ["aino-italic", "sans-serif"]
     },
   },
   plugins: [

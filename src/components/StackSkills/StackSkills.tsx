@@ -13,7 +13,7 @@ export default function StackSkills() {
 
 
   return (
-    <div className="bg-[#000087] text-white print:text-black print:bg-black">
+    <div className="bg-[#000087] text-white print:text-black print:bg-none">
       <div className="flex items-center text-center flex-col p-3 print:items-start print:p-0 print:text-start">
         <h2 className="font-ainoBold text-lg print:font-ainoHeadline print:text-xl">Lenguages de Programación & Sistemas</h2>
         <p className="font-ainoHeadline text-xs print:font-aino">JavaScript, TypeScript; Python; Node/React/Next.js; TailwindCSS; PostgreSQL; Serverless;Docker; Playwright; Jest; Git/GitFlow/GitHub</p>
