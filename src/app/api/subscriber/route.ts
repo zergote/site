@@ -2,6 +2,7 @@ import { NextResponse } from "next/server";
 import { prisma } from "@/libs/prisma"
 import 'dotenv/config'
 
+
 export async function POST(request: any) {
   const { email } = await request.json()
   const newSubscriber = await prisma.subscribers.create({
@@ -16,7 +17,7 @@ export async function POST(request: any) {
   var postmark = require("postmark");
 
   // Send an email:
-  var client = new postmark.ServerClient(process.env.API_POSTMAK);
+  var client = new postmark.ServerClient(process.env.API_POSTMARK);
 
   client.sendEmail({
     "From": "christian@yanezc.com",
