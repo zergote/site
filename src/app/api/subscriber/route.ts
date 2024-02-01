@@ -1,6 +1,6 @@
 import { NextResponse } from "next/server";
 import { prisma } from "@/libs/prisma"
-
+require('dotenv').config()
 
 export async function POST(request: any) {
   console.log("entro")
@@ -17,7 +17,7 @@ export async function POST(request: any) {
   var postmark = require("postmark");
 
   // Send an email:
-  var client = new postmark.ServerClient("09fe5f68-1354-4e28-adad-9ec3778c6992");
+  var client = new postmark.ServerClient(process.env.API_POSTMARK);
 
   client.sendEmail({
     "From": "christian@yanezc.com",
