@@ -22,6 +22,7 @@ const posts = PostsList.posts.sort((postA: any, postB: any) => {
 
 
 export default function Home() {
+  console.log(process.env.API)
   return (
     <div className="min-h-screen flex flex-col">
       <PersonOverview />
