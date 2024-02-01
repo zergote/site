@@ -3,7 +3,6 @@ import { prisma } from "@/libs/prisma"
 import 'dotenv/config'
 
 export async function POST(request: any) {
-  console.log("entro")
   const { email } = await request.json()
   const newSubscriber = await prisma.subscribers.create({
     data: {
