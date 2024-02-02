@@ -23,7 +23,7 @@ export async function POST(request: any) {
       "From": "christian@yanezc.com",
       "To": email,
       "Subject": "Bienvenido la lista de correos",
-      "HtmlBody": "Hola bienvenido, en estos mails recibiras consejos y mensajes brujula sobre el mundo del desarrollo. Puedes darte de baja cuando quieras escribiendo a christian@yanezc.com. Espero que disfrutes recibiendo el contenido.",
+      "HtmlBody": "Hola en estos mails recibirás consejos y mensajes brújula sobre el mundo del desarrollo. Puedes darte de baja cuando quieras escribiendo a christian@yanezc.com. Espero que disfrutes del contenido.",
       "TextBody": "",
       "MessageStream": "outbound"
     });
