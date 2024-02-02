@@ -18,7 +18,7 @@ export default function About() {
           /></a>
         <h1 className="font-ainoHeadline text-2xl text-[#0000f0] mb-3 mt-1">Sobre mi</h1>
         <div className="text-pretty text-md font-aino">
-          <p className="mb-3 text-[#323334]">Desde una edad temprana, desarrollé un interés por la física y los fenómenos eléctricos, los cuales me encaminaron hacia la electrónica. Mi pasión por la ingeniería de software se nació cuando tuve mi primer computadora 286 con MSDOS que disfrute, y cuando entre a la Universidad ya sabia que estudiaría Ingeniería en computación por la tecnología y su potencial para cambiar el mundo.</p>
+          <p className="mb-3 text-[#323334]">Desde una edad temprana, desarrollé un interés por la física y los fenómenos eléctricos, los cuales me encaminaron hacia la electrónica. Mi pasión por la ingeniería de software se nació cuando tuve mi primera computadora 286 con MSDOS que disfrute, y cuando entre a la Universidad ya sabia que estudiaría Ingeniería en computación debido a la tecnología y su potencial para cambiar el mundo.</p>
 
           <p className="mb-3 text-[#323334]">Mi interés se centra en la investigación y desarrollo de infraestructuras tecnológicas, computación quántica e inteligencia artificial y estoy especialmente interesado en las soluciones innovadoras relacionadas con la transferencia de valor entre dos partes.</p>
 
