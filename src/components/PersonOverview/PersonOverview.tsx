@@ -19,7 +19,7 @@ export default function PersonOverview() {
   return (
     <div className="text-[#323334] containner ml-4 mr-4 pt-5 max-w-screen-sm md:max-w-screen-md sm:ml-6 md:ml-20 md:mr-20 lg:ml-32 lg:mr-32 xl:ml-72 xl:mr-72 2xl:ml-96 2xl:mr-96 lg:max-w-screen-md sm:mx-auto print:text-xs print:pt-0">
       <div className="flex flex-col rounded-lg font-aino">
-        <p>Mi nombre es Christian, crecí en Irapa, una hermosa ciudad del oriente de Venezuela. Trabajo profesionalmente en el desarrollo de software en diferentes roles: he sido fronted, backend así como devops.</p>
+        <p>Mi nombre es Christian, crecí en Irapa, una hermosa ciudad del oriente de Venezuela. Actualmente vivo en España y trabajo profesionalmente en el desarrollo de software en diferentes roles: he sido fronted, backend así como devops.</p>
         <p className="print:hidden">Cuando la vida y el trabajo lo permitan, disfrutaré publicando y compartiendo todo lo que descubro o invento en este sitio web.</p>
         <div>
           <span>
