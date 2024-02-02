@@ -57,7 +57,7 @@ export default function SubscripctionBox() {
       {
         subsOk && <div className="flex items-center text-center flex-col p-3">
           <h2 className="text-[#0000f0] font-ainoBold text-lg">Registro completado!</h2>
-          <p>En breve recibira un email para confirmar que te has subscrito, si no lo encuentra recuerde revisar su bandeja de correo electronico no deseado o spam y moverlo a su bandeja principal.</p>
+          <p>En breve recibiras un email para confirmar que te has subscrito, si no lo encuentras puedes encontrarlo en tu bandeja de correo electronico no deseado o spam y moverlo a su bandeja principal.</p>
         </div >
       }
     </div >
