@@ -9,6 +9,7 @@ export default function ArticlesListView({ posts }: any) {
       <header className="text-[#808284]  flex items-center text-xs font-aino">
         <span className={"w-12 h-9 text-left"}>fecha</span>
         <span className="grow h-9 pl-2">título</span>
+        <span className={"h-9 pl-4 mr-2"}>estado</span>
       </header>
       <List posts={posts} />
     </main>
@@ -42,6 +43,9 @@ export default function ArticlesListView({ posts }: any) {
                       </span>
                     )}
                     <span className="grow text-[#323334] hover:text-[#0000f0]">{post.title}</span>
+                    <span className="text-white text-xs mr-2 bg-pink-900 rounded-sm p-0.5 font-ainoBold">
+                      {post.estado}
+                    </span>
                   </span>
                 </span>
               </Link>
