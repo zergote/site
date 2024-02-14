@@ -1,0 +1,14 @@
+name: say hello
+
+on:
+  push:
+    branches:
+      - master
+
+  jobs:
+    hello_word:
+      runs-on: ubuntu-18.04´
+      steps:
+        - name: Echo the message
+          run: |
+            echo "hola christian!"
