@@ -4,10 +4,14 @@ on:
   push:
     branches:
       - master
+
 jobs:
   hello_word:
-    runs-on: ubuntu-18.04
+    runs-on: ubuntu-latest
     steps:
       - name: Echo the message
         run: |
           echo "hola christian!"
+      - name: Dime la fecha
+        run: date
+      - run: ls -l
