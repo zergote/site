@@ -7,7 +7,7 @@ export default function WorkExperienceOverview() {
 
       <div className="flex text-start">
         <dl className="flex flex-col justify-between mb-5 text-[#323334] print:mb-0">
-          <dt className="text-base font-aino print:text-xs"><span className="underline text-[#323334] decoration-[#323334] hover:decoration-[#0000f0] hover:text-[#0000f0]">NOVEDADES SULMIRA</span> Feb, 2020 | Nov, 2023</dt>
+          <dt className="text-base font-aino print:text-xs"><span className="underline text-[#323334] decoration-[#323334] hover:decoration-[#0000f0] hover:text-[#0000f0]">NOVEDADES SULMIRA</span> Ago, 2021 | Nov, 2023</dt>
           <dt className="text-lg font-ainoBold print:text-sm">Ingeniero de Computación</dt>
           <dt className="text-base font-ainoHeadline mb-1 print:text-xs">#javascript #react #nodejs #postgresql</dt>
           <dd className="text-base font-aino print:text-xs">
@@ -31,7 +31,7 @@ export default function WorkExperienceOverview() {
       <div className="flex text-start">
 
         <dl className="flex flex-col justify-between mb-5 text-[#323334] print:mb-0">
-          <dt className="text-base font-aino print:text-xs"><a href="https://twitter.com/PrensaSenifa" className="underline text-[#323334] decoration-[#323334] hover:decoration-[#0000f0] hover:text-[#0000f0]" target="_blank" rel="noopener noreferrer">SENIFA</a> 2021 Mar, 2013| Oct, 2016</dt>
+          <dt className="text-base font-aino print:text-xs"><a href="https://twitter.com/PrensaSenifa" className="underline text-[#323334] decoration-[#323334] hover:decoration-[#0000f0] hover:text-[#0000f0]" target="_blank" rel="noopener noreferrer">SENIFA</a> Feb, 2013| Ago, 2016</dt>
           <dt className="text-lg font-ainoBold print:text-sm">Especialista en Infraestructura IT</dt>
           <dt className="text-base font-ainoHeadline mb-1 print:text-xs">#redes #sysadmin #seguridad</dt>
           <dd className="text-base font-aino print:text-xs">
